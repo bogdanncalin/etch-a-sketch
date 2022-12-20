@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 { 
+    font-family: "Cabin Sketch"; 
+    font-size: 5em; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+} 
+    
+h3 { 
+    font-family: "Cabin Sketch"; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px; 
+} 
+
+p { 
+    font-family: "Cabin Sketch"; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400;
+    line-height: 20px; 
+} 
+
+blockquote { 
+    font-family: "Cabin Sketch"; 
+    font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; 
+} 
+
+pre { 
+    font-family: "Cabin Sketch"; 
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5714px; 
+}
+
+#display {
+    box-shadow: 0px 0px 1px 0.5px #000000;
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+}
+
+.left-part-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+}
+
+.row {
+
+}
+
+.slider{
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 20px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    border-radius: 5px;
+}
+
+
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+
+.slider::-webkit-slider-thumb {
+   -webkit-appearance: none; /* Override default look */
+   appearance: none;
+   width: 25px; /* Set a specific slider handle width */
+   height: 25px; /* Slider handle height */
+   background: gray; /* Green background */
+   border-radius: 50%;
+   cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+.game{
+    display:flex;
+    gap: 20px;
+}
+
+.left-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.button:hover{
+    scale:1.05;
+}
+
+.color {
+	-webkit-appearance: none;
+	border: none;
+    border-radius: 50%;
+	width: 80px;
+	height: 80px;
+}
+.color::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+.color::-webkit-color-swatch {
+	border: none;
+    border-radius: 50%;
+}
+
+.active{
+    background-color: #808080;
+    color: white;
+}
