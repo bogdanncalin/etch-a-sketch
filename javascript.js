@@ -14,7 +14,7 @@ function drawSquares(){
     for(let i = 0; i < squares; i++){
         let column = document.createElement('div');
         column.className = 'column';
-        for(let j = 0; j <= squares; j++){
+        for(let j = 0; j < squares; j++){
             let row = document.createElement('div');
             row.className = 'row';
             row.id = 'rowid';
