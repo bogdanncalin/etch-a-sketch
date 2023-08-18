@@ -1,4 +1,6 @@
 # etch-a-sketch
-Etch-a-sketch project made for The Odin Project web development course I am currently following.
+🛠️ Tech stack: Javascript, HTML, CSS 🎨
+✏️ Enabled users to draw on the screen using their mouse.
+💡 Gained valuable experience in web development through this project. 🚀
 
-Preview: https://bogdanncalin.github.io/etch-a-sketch/
+🔗 [Click here for demo](https://bogdanncalin.github.io/etch-a-sketch/)
