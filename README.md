@@ -5,4 +5,4 @@
 
 💡 Gained valuable experience in web development through this project. 🚀
 
-🔗 [Click here for demo](https://bogdanncalin.github.io/etch-a-sketch/)
+[🔗 Click here for demo](https://bogdanncalin.github.io/etch-a-sketch/)
